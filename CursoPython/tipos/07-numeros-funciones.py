@@ -2,6 +2,8 @@ import math
 
 print(round(1.5))
 
+num = "Tu bola"
+
 print(abs(-2))
 
 # Metodos mas importantes de "Math"#
