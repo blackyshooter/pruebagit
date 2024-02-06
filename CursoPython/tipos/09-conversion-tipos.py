@@ -5,5 +5,8 @@
 # float()
 # bool()
 
-print(bool(""))
-print(bool("0"))
+print(bool(""))  # FALSE
+print(bool("0"))  # TRUE
+print(bool(None))  # FALSE
+print(bool(" "))  # TRUE
+print(bool(0))  # FALSE
