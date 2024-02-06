@@ -2,7 +2,6 @@ import math
 
 print(round(1.5))
 
-num = "Tu bola"
 
 print(abs(-2))
 
