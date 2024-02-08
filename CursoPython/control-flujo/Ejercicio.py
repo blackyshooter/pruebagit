@@ -3,10 +3,12 @@ n1 = 0
 
 if n1 == 0:
         
-        leer_n1 = input("Ingrese un número ")
-        n1 = int(leer_n1)
-while n1 != 0:
+    leer_n1 = input("Ingrese un número ")
+    n1 = int(leer_n1)
+while True:
     leer_op = input("\nIngrese la operacion ")
+    if leer_op.lower() == "salir":
+        break
     leer_n2 = input("\nIngrese el siguiente numero ")
     n2 = int(leer_n2)
     if leer_op.lower() == "suma":
@@ -25,7 +27,8 @@ while n1 != 0:
         resultado = n1 / n2
         print("El resultado es ",resultado)
         n1 = resultado
-
+   
 
     
 
+ 
