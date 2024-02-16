@@ -1,3 +1,5 @@
-mascotas = ["Pelusa", "Pulga", "Felipe", "Chanchito Feliz"]
+mascotas = ["Pelusa", "Pulga", "Felipe", "Wolfgang", "Chanchito Feliz"]
 
-print(mascotas.index("Pulga"))
+print(mascotas.count("Wolfgang"))
+if "Wolfgang" in mascotas:
+    print(mascotas.index("Wolfgang"))
